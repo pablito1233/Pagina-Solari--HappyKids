@@ -1,0 +1,209 @@
+body {
+    box-sizing: border border-box;
+    margin:0;
+    padding:0;
+    height: 100vh;
+    font-family: 'noto sans',sans-serif;
+    color: #222222;
+    background: #e2cf26;
+}
+
+.btn-info1 {
+    padding: 10px 40px;
+    margin-top: 40px;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    color: white;
+    background: #FEBA0B;
+    border-radius: 20px;
+    box-shadow: 1px 1px 30px -5px #20202049;
+    cursor: pointer;
+    transition: box-shadow 500ms;
+}
+
+.btn-info2{
+    text-decoration: none;
+    color: White;
+    font-size: 1.2rem;
+    font-family: 'monstaserrat',sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    background-color: #ec7614;
+    padding: 1rem 2rem;
+    display: inline-block;
+    align-self: center;
+    margin : auto;
+}
+.comentario {
+    text-align: center;
+    color: black;
+    font-size: 2.5rem;
+}
+
+.logo img{
+    width: 350px;
+}
+
+#parte-intermedia{
+    background-color: #f4f5f9;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#parte-central{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 1.2rem;
+}
+
+#titulo {
+    margin-bottom: 2rem;
+    color: black;
+}
+
+#titulo >h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'monstaserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#titulo > hr {
+    width: 4.5rem;
+    border-color: #44bd32;
+}
+
+#container-parte-central{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-central{
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: rgb(5, 5, 5);
+}
+
+#img-central > h3 {
+    text-align : center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.img-central>p{
+    margin-bottom: 2rem;
+    color: rgb(10, 10, 10);
+}
+
+.img-central > img {
+    max-width: 80%;
+}
+
+
+#parte-semifinal {
+    background: linear-gradient( rgba(13, 237, 253, 0.7),rgba(240, 119, 6, 0.505)),url(../images/Gigantografia\ Happy\ Kids\ JPEG.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height: 120vh;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.5rem;
+}
+
+#contenido {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.medio{
+    width: 50%;
+}
+
+#parte-semifinal-der >h4 {
+    text-transform: uppercase;
+    font-family: 'monstaserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#parte-semifinal-der >hr {
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+#parte-semifinal-der >p {
+    margin-bottom: 4rem;
+}
+
+#parte-final {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom:  5rem;
+}
+
+#parte-final-izquierda{
+    flex: 1;
+}
+
+#parte-final-izquierda >h4{
+    text-transform: uppercase;
+    font-family: 'monstaserrat',sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+#parte-final-izquierda >p {
+    margin-bottom: 4rem;
+    font-size: 2.0rem;
+}
+
+#parte-final-derecha{
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px 10px;
+    justify-items: center;
+    align-items: center;
+}
+
+#parte-final-derecha >img {
+    max-width: 200%;
+}
+
+#parte-final-derecha >hr {
+    width: 4.5rem;
+    border-color: #44bd32;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
